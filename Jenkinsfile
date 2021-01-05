@@ -12,7 +12,7 @@ pipeline {
       stage(' ABC Code Checkout') {
          steps {
             // Get some code from a GitHub repository
-            git branch: '*/main', url: 'https://github.com/drvdevops2805/tomcat_pipeline1.git'   
+            git branch: 'main', url: 'https://github.com/drvdevops2805/tomcat_pipeline1.git'   
          }
 
       }
